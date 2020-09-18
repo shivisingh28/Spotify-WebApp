@@ -1,0 +1,33 @@
+.login {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	background-color: black;
+}
+
+.login > img {
+	width: 80%;
+	min-width: 300px;
+}
+
+.login > a {
+	text-decoration: none;
+	background-color: #1db954;
+	padding: 20px;
+	border-radius: 99px;
+	font-weight: 800;
+	color: white;
+}
+.login > a:hover {
+	transition: 100ms ease-in-out;
+	background-color: #0f943d;
+}
+
+@media (max-width: 767px) {
+	.login a {
+		width: 150px;
+		font-size: 12px;
+		display: grid;
+		place-items: center;
+	}
+}
